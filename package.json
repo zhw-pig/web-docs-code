@@ -1,0 +1,20 @@
+{
+  "name": "web-docs",
+  "version": "1.0.0",
+  "description": "前端技术开发文档集成",
+  "main": "index.js",
+  "repository": "https://github.com/zhw-pig/web-docs-code.git",
+  "author": "愿为浪漫渡此劫",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.10",
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "@vuepress/plugin-nprogress": "^1.9.10",
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.10"
+  }
+}
