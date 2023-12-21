@@ -14,13 +14,15 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m "deploy"
+# git branch -M master
+# git remote add origin git@github.com:zhw-pig/web-docs.git
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
-git push -f git@github.com:zhw-pig/web-docs.git main
+git push -f git@github.com:zhw-pig/zhw-pig.github.io.git main
 
 cd -

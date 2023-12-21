@@ -3,8 +3,8 @@
 
 import { defineConfig } from "vuepress/config";
 
-export default defineConfig({
-    base: '/web-docs/', 
+export default defineConfig({ 
+    base: '/web-docs/',   
     // title: 'Web Docs',
     // description: '前端开发技术文档集成',
     head: [
