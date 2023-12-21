@@ -30,7 +30,7 @@ export default defineConfig({
         '/en/': {
           lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
           title: 'Web Docs',
-          description: 'Web-'
+          description: 'Web'
         },
     },
     // theme: '@vuepress/blog',
